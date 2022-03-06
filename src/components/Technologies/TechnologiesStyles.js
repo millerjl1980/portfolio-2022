@@ -22,6 +22,16 @@ export const ImageContainer = styled.div`
     margin-top: 16px;
   }
 `
+export const ListIconContainer = styled.div`
+  grid-area: 1 / 1 / 2 / 2;
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+  align-content: center;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    grid-area: 1 / 1 / 2 / 3;
+  }
+`;
 
 export const MainImage = styled.img`
   width: 100%;

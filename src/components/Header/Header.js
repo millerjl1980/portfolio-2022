@@ -1,8 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillCloud, AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { DiCssdeck } from 'react-icons/di';
-import styled from 'styled-components';
+import { DiCode } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, TitleSpan, TitleLink } from './HeaderStyles';
 
@@ -11,7 +10,7 @@ const Header = () =>  (
     <Div1>
       <Link href={"/"}>
         <TitleLink>
-          <DiCssdeck size="3rem" />
+          <DiCode size="3rem" />
            <TitleSpan>justin miller</TitleSpan>
           </TitleLink>
         </Link>
