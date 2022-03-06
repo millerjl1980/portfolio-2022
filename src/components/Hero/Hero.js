@@ -8,13 +8,13 @@ const Hero = () => (
   <Section row nopadding >
     <LeftSection>
       <SectionTitle main center>
-        Welcome To <br/>
-        My Personal Portfolio
+        Justin Miller, <br/>
+        Software Developer
       </SectionTitle>
       <SectionText>
-        Value Proposition
+          Thoughtful, disciplined, and detail-oriented software developer who enjoys identifying problems, and finds solving them rewarding.
       </SectionText>
-      <Button onclick={() => window.location =' https://google.com'}>Learn More</Button>
+      <Button onClick={()=> (window.location = 'https://www.linkedin.com/in/indymiller/')}>Learn More</Button>
     </LeftSection>
 
   </Section>

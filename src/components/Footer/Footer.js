@@ -17,7 +17,7 @@ const Footer = () => {
      </LinkList>
      <SocialIconsContainer>
        <CompanyContainer>
-         <Slogan>Insert Slogan Here</Slogan>
+         <Slogan>Thoughtful, disciplined, and detail-oriented software developer who enjoys identifying problems, and finds solving them rewarding.</Slogan>
        </CompanyContainer>
        <SocialIcons href='https://github.com/millerjl1980'>
         <AiFillGithub size='3rem'/>
