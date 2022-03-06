@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillCloud, AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillCloud, AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import { FaSalesforce } from "react-icons/fa";
 import { DiCode } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, TitleSpan, TitleLink } from './HeaderStyles';
@@ -40,7 +41,7 @@ const Header = () =>  (
         <AiFillLinkedin size='3rem'/>
       </SocialIcons>
       <SocialIcons href='https://trailblazer.me/id/indymiller317'>
-        <AiFillCloud size='3rem'/>
+        <FaSalesforce size='3rem'/>
       </SocialIcons>
     </Div3>
   </Container>
