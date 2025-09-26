@@ -26,15 +26,6 @@ export const projects = [
     visit: 'https://realpython.com/beautiful-soup-web-scraper-python/',
     id: 2,
   },
-  {
-    title: 'Recipe App Backend',
-    description: "This is a code repository for a Django backend that I am going to use for a project to digitize some family recipies.",
-    image: 'images/django.png',
-    tags: ['Django', 'Azure', 'Docker'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 3,
-  },
 ];
 
 export const TimeLineData = [
