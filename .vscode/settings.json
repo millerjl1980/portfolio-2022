@@ -1,5 +1,6 @@
 {
     "conventionalCommits.scopes": [
-        "constants.js"
+        "constants.js",
+        "Firebase"
     ]
 }
