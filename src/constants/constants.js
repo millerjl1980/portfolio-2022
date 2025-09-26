@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: 'Mars Society Form',
-    description: "As part of a term group project while at Kenzie, developed a solution for The Mars Society so that they can gather proposals for individuals and organizations that wish to be a part of a Mars expedition. React and Redux used to build the site and MongoDB used for the backend database.",
-      image: 'images/capstonepic.png',
-      tags: ['Mongo', 'React', 'Redux'],
-    source: 'https://gitlab.com/techieben/mars-needs',
-    visit: 'https://www.marssociety.org/about/',
+    title: 'Open WebUI Image Generation Tool',
+    description: "This toolkit integrates Google's powerful (and experimental) gemini-2.0-flash-preview-image-generation model directly into Open WebUI, allowing you to generate images based on text prompts within your chat interface.",
+      image: 'images/geminitool_2025-09-26_18-39-11.png',
+      tags: ['Gemini', 'Image Generation', 'AI'],
+    source: 'https://github.com/millerjl1980/webui-toolkit-gemini-imagegen',
+    visit: 'https://openwebui.com/t/indymiller/gemini_2_0_flash_exp_image_generation',
     id: 0,
   },
   {
