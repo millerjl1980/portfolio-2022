@@ -43,7 +43,8 @@ export const TimeLineData = [
   { year: 2008, text: 'Graduated from the University of Indianapolis with a Masters in Business Administration', },
   { year: 2019, text: 'Left Capital Group to persue a career in software development', },
   { year: 2020, text: 'Graduated from Kenzie Academy with a certificate in Full Stack Web Development and became a software developer for Elements Financial', },
-  { year: 2021, text: 'Started the Bachelors in Software Development program at WGU', },
+  { year: 2023, text: 'Graduated with a the Bachelors in Software Engineering program at WGU', },
+  { year: 2025, text: 'Started the Masters in Computer Science program at WGU', },
 ];
 
 export const AccomplishmentData = [

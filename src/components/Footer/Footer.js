@@ -9,12 +9,7 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 const Footer = () => {
   return (
    <FooterWrapper>
-     <LinkList>
-        <LinkColumn>
-          <LinkTitle>Email</LinkTitle>
-          <LinkItem href='mailto:justin@justinmiller.dev'>justin@justinmiller.dev</LinkItem>
-        </LinkColumn>
-     </LinkList>
+
      <SocialIconsContainer>
        <CompanyContainer>
          <Slogan>Thoughtful, disciplined, and detail-oriented software developer who enjoys identifying problems, and finds solving them rewarding.</Slogan>
