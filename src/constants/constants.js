@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: 'Game of Chance',
-    description:"A small site, but one that I enjoyed doing. While learning JavaScript, we were tasked with building simple game logic and I choose to model mine after the famous upgrade to Rock, Paper, Scissors that the show Big Bang Theory modeled.  Now you can play along with Sheldon.",
+    description:"A small site, but one of the first ones that I built while learning development and enjoyed doing. We were tasked with building simple game logic and I choose to model mine after the famous upgrade to Rock, Paper, Scissors that the show Big Bang Theory modeled.  Now you can play along with Sheldon.",
     image: '/images/game.png',
     tags: ['HTML', 'CSS', 'JavaScript'],
     source: 'https://gitlab.com/millerjl1980/gametheory',
@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: 'Job Searcher',
-    description: "While out searching for jobs, I decided to build a web scraping application using Python and BeautifulSoup to get my results faster in the morning.",
+    description: "After leaving Kenzie and searching for jobs, I decided to build a web scraping application using Python and BeautifulSoup to get my results faster in the morning.",
       image: '/images/5-2-python-logo-png-image.png',
       tags: ['Python', 'BeautifulSoup'],
     source: 'https://github.com/millerjl1980/jobsearcher',
@@ -39,7 +39,7 @@ export const TimeLineData = [
 ];
 
 export const AccomplishmentData = [
-  { number: 15, text: 'Years working in the finance industry'},
-  { number: 500, text: 'LinkedIn Connections', },
-  { number: 5000, text: 'Hours of software development', }
+  { number: "20", text: 'Years working in the finance industry'},
+  { number: "500", text: 'LinkedIn Connections', },
+  { number: "5000", text: 'Hours of software development', }
 ];
