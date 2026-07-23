@@ -1,12 +1,21 @@
 export const projects = [
   {
+    title: 'GoGoGiftList',
+    description: "This was a web application that I built during the 2026 OpenAI Build Week Hackathon. The goal was to use Codex to build an app in a week and I built this application using React, Django, and GPT 5.6.",
+      image: 'images/gogogiftlist.png',
+      tags: ['Codex', 'GPT 5.6', 'AI'],
+    source: 'https://github.com/millerjl1980/gogogiftlist',
+    visit: 'https://gogogiftlist.com',
+    id: 0,
+  },
+  {
     title: 'Open WebUI Image Generation Tool',
     description: "This toolkit integrates Google's powerful (and experimental) gemini-2.0-flash-preview-image-generation model directly into Open WebUI, allowing you to generate images based on text prompts within your chat interface.",
       image: 'images/geminitool_2025-09-26_18-39-11.png',
       tags: ['Gemini', 'Image Generation', 'AI'],
     source: 'https://github.com/millerjl1980/webui-toolkit-gemini-imagegen',
     visit: 'https://openwebui.com/t/indymiller/gemini_2_0_flash_exp_image_generation',
-    id: 0,
+    id: 1,
   },
   {
     title: 'Game of Chance',
@@ -15,7 +24,7 @@ export const projects = [
     tags: ['HTML', 'CSS', 'JavaScript'],
     source: 'https://gitlab.com/millerjl1980/gametheory',
     visit: 'https://millerjl1980.gitlab.io/gametheory/',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Job Searcher',
@@ -24,7 +33,7 @@ export const projects = [
       tags: ['Python', 'BeautifulSoup'],
     source: 'https://github.com/millerjl1980/jobsearcher',
     visit: 'https://realpython.com/beautiful-soup-web-scraper-python/',
-    id: 2,
+    id: 3,
   },
 ];
 

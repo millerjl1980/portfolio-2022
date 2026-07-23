@@ -1,6 +1,8 @@
 import React from 'react';
+import { VscAzure } from "react-icons/vsc";
+import { FaSalesforce } from "react-icons/fa";
 import { DiDjango, DiFirebase, DiNodejs, DiPostgresql, DiReact, DiZend } from 'react-icons/di';
-import { IconName, SiDjango, SiMicrosoftazure, SiNodeDotJs, SiPython, SiReact, SiSalesforce } from "react-icons/si";
+import { IconName, SiDjango, SiNodedotjs, SiPython, SiReact } from "react-icons/si";
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle, ListIconContainer } from './TechnologiesStyles';
 
@@ -28,7 +30,7 @@ const Technologies = () =>  (
       </ListItem>
       <ListItem>
         <ListIconContainer>
-          <SiNodeDotJs size='3rem' />
+          <SiNodedotjs size='3rem' />
           <SiPython size='3rem' />
         </ListIconContainer>
         <ListContainer>
@@ -41,8 +43,8 @@ const Technologies = () =>  (
       </ListItem>
       <ListItem>
         <ListIconContainer>
-          <SiMicrosoftazure size='3rem' />
-          <SiSalesforce size='3rem' />
+          <VscAzure size='3rem' />
+          <FaSalesforce size='3rem' />
         </ListIconContainer>
         <ListContainer>
           <ListTitle>Cloud</ListTitle>

@@ -2,6 +2,7 @@
     "conventionalCommits.scopes": [
         "constants.js",
         "Firebase",
-        "NPM upgrades"
+        "NPM upgrades",
+        "Projects"
     ]
 }
