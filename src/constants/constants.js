@@ -1,30 +1,39 @@
 export const projects = [
   {
+    title: 'GoGoGiftList',
+    description: "This was a web application that I built during the 2026 OpenAI Build Week Hackathon. The goal was to use Codex to build an app in a week and I built this application using React, Django, and GPT 5.6.",
+      image: 'images/gogogiftlist.png',
+      tags: ['Codex', 'GPT 5.6', 'AI'],
+    source: 'https://github.com/millerjl1980/gogogiftlist',
+    visit: 'https://gogogiftlist.com',
+    id: 0,
+  },
+  {
     title: 'Open WebUI Image Generation Tool',
     description: "This toolkit integrates Google's powerful (and experimental) gemini-2.0-flash-preview-image-generation model directly into Open WebUI, allowing you to generate images based on text prompts within your chat interface.",
       image: 'images/geminitool_2025-09-26_18-39-11.png',
       tags: ['Gemini', 'Image Generation', 'AI'],
     source: 'https://github.com/millerjl1980/webui-toolkit-gemini-imagegen',
     visit: 'https://openwebui.com/t/indymiller/gemini_2_0_flash_exp_image_generation',
-    id: 0,
+    id: 1,
   },
   {
     title: 'Game of Chance',
-    description:"A small site, but one that I enjoyed doing. While learning JavaScript, we were tasked with building simple game logic and I choose to model mine after the famous upgrade to Rock, Paper, Scissors that the show Big Bang Theory modeled.  Now you can play along with Sheldon.",
+    description:"A small site, but one of the first ones that I built while learning development and enjoyed doing. We were tasked with building simple game logic and I choose to model mine after the famous upgrade to Rock, Paper, Scissors that the show Big Bang Theory modeled.  Now you can play along with Sheldon.",
     image: '/images/game.png',
     tags: ['HTML', 'CSS', 'JavaScript'],
     source: 'https://gitlab.com/millerjl1980/gametheory',
     visit: 'https://millerjl1980.gitlab.io/gametheory/',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Job Searcher',
-    description: "While out searching for jobs, I decided to build a web scraping application using Python and BeautifulSoup to get my results faster in the morning.",
+    description: "After leaving Kenzie and searching for jobs, I decided to build a web scraping application using Python and BeautifulSoup to get my results faster in the morning.",
       image: '/images/5-2-python-logo-png-image.png',
       tags: ['Python', 'BeautifulSoup'],
     source: 'https://github.com/millerjl1980/jobsearcher',
     visit: 'https://realpython.com/beautiful-soup-web-scraper-python/',
-    id: 2,
+    id: 3,
   },
 ];
 
@@ -39,7 +48,7 @@ export const TimeLineData = [
 ];
 
 export const AccomplishmentData = [
-  { number: 15, text: 'Years working in the finance industry'},
-  { number: 500, text: 'LinkedIn Connections', },
-  { number: 5000, text: 'Hours of software development', }
+  { number: "20", text: 'Years working in the finance industry'},
+  { number: "500", text: 'LinkedIn Connections', },
+  { number: "5000", text: 'Hours of software development', }
 ];

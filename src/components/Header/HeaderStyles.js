@@ -21,7 +21,7 @@ export const TitleSpan = styled.span`
   font-size: 2rem;
   }
 `;
-export const TitleLink = styled.a`
+export const TitleLink = styled.span`
   display: flex;
   alignItems: center;
   color: white;
@@ -57,7 +57,7 @@ export const Div3 = styled.div`
 `;
 
 // Navigation Links
-export const NavLink = styled.a`
+export const NavLink = styled.span`
   font-size: 2rem;
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
@@ -121,7 +121,7 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
 
 // Social Icons 
 
-export const SocialIcons = styled.a`
+export const SocialIcons = styled.span`
 transition: 0.3s ease;
 color: white;
 border-radius: 50px;
