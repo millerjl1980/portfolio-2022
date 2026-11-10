@@ -157,3 +157,22 @@ export const LinkTitle = styled.h4`
 		margin-bottom: 8px;
 	}
 `
+
+export const PrivacyLink = styled.span`
+	display: inline-block;
+	padding: 1rem;
+	font-size: 16px;
+	line-height: 28px;
+	color: rgba(255, 255, 255, 0.75);
+	transition: .3s ease;
+
+	&:hover {
+		color: #fff;
+		cursor: pointer;
+	}
+
+	@media ${props => props.theme.breakpoints.sm} {
+		font-size: 14px;
+		line-height: 22px;
+	}
+`
