@@ -4,7 +4,7 @@ import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { FaSalesforce } from "react-icons/fa";
 
 import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, PrivacyLink, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
 
 const Footer = () => {
   return (
@@ -24,6 +24,10 @@ const Footer = () => {
         <FaSalesforce size='3rem'/>
       </SocialIcons>
      </SocialIconsContainer>
+
+     <Link href='/privacy'>
+       <PrivacyLink>Privacy Policy</PrivacyLink>
+     </Link>
 
    </FooterWrapper>
   );
